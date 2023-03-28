@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { data } from '../data/data.js';
 
-const Food = () => {
+
+const House = ({houses}) => {
   //   console.log(data);
   const [homes, setHomes] = useState(houses);
 
@@ -102,14 +102,14 @@ const Food = () => {
 
       {/* Display foods */}
       <div className='grid grid-cols-2 lg:grid-cols-4 gap-6 pt-4'>
-        {foods.map((item, index) => (
+        {homes.map((item, index) => (
           <div
             key={index}
             className='border shadow-lg rounded-lg hover:scale-105 duration-300'
           >
             <img
-              src={item.image}
-              alt={item.name}
+              src={item.img}
+              alt={item.title}
               className='w-full h-[200px] object-cover rounded-t-lg'
             />
             <div className='flex justify-between px-2 py-4'>
@@ -127,4 +127,4 @@ const Food = () => {
   );
 };
 
-export default Food;
+export default House;

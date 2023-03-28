@@ -33,8 +33,6 @@ function App() {
       <div className="App">
       <Navbar/>
       <Hero />
-      <HeadlineCards />
-      <House />
       {/* <Search searchTerm={searchTerm} onSearchChange={setSearchTerm}/> */}
         <Routes>
           <Route path="/" element={<Home houses={houses}/>} />
