@@ -11,8 +11,6 @@ const Hero = () => {
             </div>
             <img 
                 className='w-full max-h-[500px] object-cover'
-                // src="https://images.unsplash.com/photo-1501876725168-00c445821c9e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60z"
-                // src="https://media.istockphoto.com/id/1402159266/photo/empty-three-poster-frames-on-beige-wall-in-living-room-interior-with-modern-furniture-and.jpg?b=1&s=170667a&w=0&k=20&c=DixCxqLYIRZvlPrj56ZO7n2gfDJJh8UJhgn-RcCclCE="
                 src = "https://images.pexels.com/photos/7747175/pexels-photo-7747175.jpeg?auto=compress&cs=tinysrgb&w=600"
                 alt='/'
             />

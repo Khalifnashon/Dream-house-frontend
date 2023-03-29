@@ -5,7 +5,6 @@ import Form from './Components/Form';
 import ViewMore from './Components/ViewMore';
 import Navbar from './Components/Navbar';
 import Hero from './Components/Hero';
-import House from './Components/House';
 import HeadlineCards from './Components/HeadlineCards';
 
 
@@ -22,6 +21,8 @@ function App() {
       .then((data) => setHouses(data))
   }, [])
 
+
+
   // const displayedHouses = houses.filter((house) => {
   //   return house.name.toLowerCase().includes(searchTerm.toLowerCase())
   // });
@@ -33,6 +34,7 @@ function App() {
       <div className="App">
       <Navbar/>
       <Hero />
+      <HeadlineCards />
       {/* <Search searchTerm={searchTerm} onSearchChange={setSearchTerm}/> */}
         <Routes>
           <Route path="/" element={<Home houses={houses}/>} />
